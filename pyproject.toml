@@ -2,7 +2,7 @@
 markers = []
 
 [tool.ruff]
-line-length = 100000 # 88 enforced by black, ignore for comments.
+ignore = ["E501"] # line length enforced by black
 
 [tool.mypy]
 plugins = ["numpy.typing.mypy_plugin"]
