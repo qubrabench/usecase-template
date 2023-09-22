@@ -1,4 +1,4 @@
-from .use_max import max_value_of_function
+from use_max import max_value_of_function
 import numpy as np
 import pytest
 
