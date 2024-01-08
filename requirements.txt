@@ -1,4 +1,4 @@
-qubrabench@git+https://github.com/qubrabench/qubrabench.git#egg=v0.1.0
+qubrabench@git+https://github.com/qubrabench/qubrabench.git#egg=3844bc51f3f142c7175aae5c5e0a1ce7d5e86a01
 numpy~=1.24
 matplotlib~=3.7
 black[jupyter]
