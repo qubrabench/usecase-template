@@ -6,3 +6,6 @@ ignore = ["E501"] # line length enforced by black
 
 [tool.mypy]
 plugins = ["numpy.typing.mypy_plugin"]
+
+[tool.isort]
+profile = "black"

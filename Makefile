@@ -4,6 +4,7 @@ all: ci extra
 
 format:
 	black --quiet --check .
+	isort --quiet --check .
 test:
 	pytest --doctest-modules -q
 lint:
